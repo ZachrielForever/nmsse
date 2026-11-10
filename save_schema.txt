@@ -1,0 +1,1830 @@
+dict{6 keys}
+  Version: int 4746
+  Platform: str "Win|Final"
+  ActiveContext: str "Main"
+  CommonStateData: dict{14 keys}
+    dict{14 keys}
+      SaveName: str "main"
+      TotalPlayTime: int 7400
+      UsesThirdPersonCharacterCam: true
+      UsesThirdPersonVehicleCam: true
+      UsesThirdPersonShipCam: false
+      PhotoModeSettings: dict{14 keys}
+        dict{14 keys}
+          Fog: float 0.5
+          CloudAmount: float 1
+          SunDir: list[4] of float
+            list[4] of float
+          FoV: float 75
+          DepthOfFieldSetting: str "Off"
+          DepthOfFieldDistance: float 2
+          DepthOfFieldDistanceSpace: float 200
+          HalfFocalPlaneDepth: float 5
+          HalfFocalPlaneDepthSpace: float 200
+          DepthOfFieldPhysConvergence: float 60
+          DepthOfFieldPhysAperture: float 4
+          Vignette: float 0.6
+          Filter: int 0
+          Bloom: float 0.3
+      ByteBeatLibrary: dict{6 keys}
+        dict{6 keys}
+          MySongs: list[8] of dict
+            list[8] of dict
+              [0] dict{8 keys}
+          Playlist: list[16] of str
+            list[16] of str
+          Shuffle: false
+          AutoplayOnFoot: false
+          AutoplayInShip: false
+          AutoplayInVehicle: false
+      SeasonData: dict{164 keys}
+        dict{164 keys}
+          SeasonId: int 0
+          StartTimeUTC: int 0
+          EndTimeUTC: int 0
+          Hash: int 0
+          Title: str "GAMEMODE_SEASONAL"
+          Subtitle: str "GAMEMODE_SEASONAL_SUBTITLE"
+          Description: str "GAMEMODE_SEASONAL_DESC"
+          Summary: str "GAMEMODE_SEASONAL_SUMMARY"
+          Cqg: str "^UI_SEASONAL_FINAL_MILESTONE"
+          FinalStageTitle: str "^UI_EXPED_STAGE_TITLE_6"
+          MilestoneWithStageLocId: str "^UI_MILESTONE_WITH_STAGE"
+          SeasonStartMusicOverride: dict{1 keys}
+            dict{1 keys}
+              AkEvent: str "INVALID_EVENT"
+          PlayStartMusicInIntro: false
+          BlockFirstSpaceMusic: false
+          GameMode: dict{1 keys}
+            dict{1 keys}
+              PresetGameMode: str "Unspecified"
+          DifficultySettingPreset: dict{1 keys}
+            dict{1 keys}
+              DifficultyPresetType: str "Invalid"
+          DifficultyMinimums: dict{30 keys}
+            dict{30 keys}
+              SettingsLocked: false
+              InventoriesAlwaysInRange: false
+              AllSlotsUnlocked: false
+              WarpDriveRequirements: true
+              CraftingIsFree: false
+              TutorialEnabled: false
+              StartWithAllItemsKnown: false
+              BaseAutoPower: false
+              DeathConsequences: dict{1 keys}
+                dict{1 keys}
+              DamageReceived: dict{1 keys}
+                dict{1 keys}
+              DamageGiven: dict{1 keys}
+                dict{1 keys}
+              ActiveSurvivalBars: dict{1 keys}
+                dict{1 keys}
+              HazardDrain: dict{1 keys}
+                dict{1 keys}
+              EnergyDrain: dict{1 keys}
+                dict{1 keys}
+              SubstanceCollection: dict{1 keys}
+                dict{1 keys}
+              InventoryStackLimits: dict{1 keys}
+                dict{1 keys}
+              ChargingRequirements: dict{1 keys}
+                dict{1 keys}
+              FuelUse: dict{1 keys}
+                dict{1 keys}
+              LaunchFuelCost: dict{1 keys}
+                dict{1 keys}
+              CurrencyCost: dict{1 keys}
+                dict{1 keys}
+              ItemShopAvailability: dict{1 keys}
+                dict{1 keys}
+              ScannerRecharge: dict{1 keys}
+                dict{1 keys}
+              ReputationGain: dict{1 keys}
+                dict{1 keys}
+              CreatureHostility: dict{1 keys}
+                dict{1 keys}
+              SpaceCombatTimers: dict{1 keys}
+                dict{1 keys}
+              GroundCombatTimers: dict{1 keys}
+                dict{1 keys}
+              SprintingCost: dict{1 keys}
+                dict{1 keys}
+              BreakTechOnDamage: dict{1 keys}
+                dict{1 keys}
+              Fishing: dict{1 keys}
+                dict{1 keys}
+              NPCPopulation: dict{1 keys}
+                dict{1 keys}
+          CreateContextSaveDataMask: str "^"
+          SwitchContextSaveDataMask: str "^"
+          SeasonalUAOverride: str ""
+          UAOverrideValue: int 0
+          FinalReward: str "^RS_NANITES_S"
+          FinalRewardSwitchAlt: str "^"
+          FinalCantRewardMessage: str "^INTRCT_NOROOM_L"
+          FinalRewardDescription: str ""
+          MainIcon: dict{1 keys}
+            dict{1 keys}
+              Filename: str ""
+          SeasonNumber: int 1
+          RemixNumber: int 0
+          DisplayNumber: int 0
+          SeasonName: str "^UI_SEASON_1_NAME"
+          SeasonNameUpper: str "^UI_SEASON_1_NAME_U"
+          MainMissionTitle: str "^UI_SEASONAL_MAIN_TITLE"
+          MainMissionMessage: str "^UI_SEASONAL_MAIN_MSG"
+          eQ9: str "^"
+          DefaultToPvPOff: false
+          MustCraftInBases: false
+          AdditionalTradeProducts: list[0]
+            list[0]
+          NeverTradeProducts: list[0]
+            list[0]
+          @eC: list[0]
+            list[0]
+          OGy: false
+          InitialJoaoBox: dict{8 keys}
+            dict{8 keys}
+              Title: str "^"
+              Description: str "^"
+              Image: str "^"
+              TakeImageFromItemIcon: str "^"
+              AudioEvent: dict{1 keys}
+                dict{1 keys}
+              Points: list[0]
+                list[0]
+              TakeDataFromSeason: false
+              DebugText: str ""
+          InitialJoaoBoxNoMainSave: dict{8 keys}
+            dict{8 keys}
+              Title: str "^"
+              Description: str "^"
+              Image: str "^"
+              TakeImageFromItemIcon: str "^"
+              AudioEvent: dict{1 keys}
+                dict{1 keys}
+              Points: list[0]
+                list[0]
+              TakeDataFromSeason: false
+              DebugText: str ""
+          StartingSuitSlots: int 0
+          StartingSuitTechSlots: int 0
+          StartingSuitCargoSlots: int 0
+          WeaponSeed: list[2] of bool|str
+            list[2] of bool|str
+          ShipSeed: list[2] of bool|str
+            list[2] of bool|str
+          8Sk: false
+          lU2: list[3] of list
+            list[3] of list
+              [0] list[2] of bool|str
+          ShipType: dict{1 keys}
+            dict{1 keys}
+              ShipClass: str "Freighter"
+          OverrideMTFilename: str ""
+          StartWithFreighter: false
+          FreighterBaseOverrideFilename: str ""
+          FreighterRace: dict{1 keys}
+            dict{1 keys}
+              AlienRace: str "None"
+          OverrideFreighterFilename: str ""
+          StartAboardFreighter: false
+          ForceStartSystemTernary: false
+          ForceStartSystemAbandoned: false
+          ForceAllSystemsAbandoned: false
+          ForceAllSentinelsAggressive: false
+          IntroSequencePOI: str "^"
+          kSe: str "^"
+          CarnageMode: false
+          aLN: str "^"
+          ;Up: list[0]
+            list[0]
+          ValidSpawnBuildings: list[0]
+            list[0]
+          SiU: str ""
+          WeaponInventoryLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          ShipInventoryLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          ShipTechInventoryLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          UseDefaultAppearance: false
+          Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[0]
+                list[0]
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 0
+              Height: int 0
+              IsCool: false
+              Name: str ""
+              Version: int 0
+              NumSlotsFromTech: int 0
+          Inventory_TechOnly: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[0]
+                list[0]
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 0
+              Height: int 0
+              IsCool: false
+              Name: str ""
+              Version: int 0
+              NumSlotsFromTech: int 0
+          Inventory_Cargo: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[0]
+                list[0]
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 0
+              Height: int 0
+              IsCool: false
+              Name: str ""
+              Version: int 0
+              NumSlotsFromTech: int 0
+          ShipInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[0]
+                list[0]
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 0
+              Height: int 0
+              IsCool: false
+              Name: str ""
+              Version: int 0
+              NumSlotsFromTech: int 0
+          WeaponInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[0]
+                list[0]
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 0
+              Height: int 0
+              IsCool: false
+              Name: str ""
+              Version: int 0
+              NumSlotsFromTech: int 0
+          SeasonTransferInventoryConfig: dict{3 keys}
+            dict{3 keys}
+              Width: int 8
+              Layout: dict{3 keys}
+                dict{3 keys}
+              SlotItemFilterIDs: list[0]
+                list[0]
+          UseRandomPet: false
+          RandomPetConstraints: list[0]
+            list[0]
+          SpecificPets: list[30] of dict
+            list[30] of dict
+              [0] dict{35 keys}
+          StartingPetSlots: int 2
+          SandwormOverrides: list[0]
+            list[0]
+          SandwormGlobalOverride: false
+          SandwormGlobalOverrideTimer: float 60
+          SandwormGlobalOverrideSpawnChance: float 1
+          StartNextToShip: false
+          ShipIsAtDifferentBuildingToPlayer: false
+          DistanceFromShipAtStartOfGame: float 500
+          BuildingRadiusShipOffsetMultiplier: float 0.85
+          ShipStartsDamaged: true
+          BlockStormsAtStart: false
+          AlwaysStormy: false
+          BlockAggressiveSentinelsInStartSystem: false
+          BlockExtremeWeatherInStartSystem: false
+          a7Y: list[2] of float
+            list[2] of float
+          R1m: list[2] of float
+            list[2] of float
+          0Is: list[3] of str
+            list[3] of str
+          AllowMissionDetailMessages: false
+          UseStartPlanetObjectListOverrides: false
+          L0X: false
+          StartPlanetRareSubstanceOverride: str "^"
+          TrashInventoryOnGalaxyTravel: true
+          FreighterBattleEarlyWarpsOverride: int -1
+          ForceDeepSpaceAmbientFrigatesOnInfested: false
+          TechCostMultiplier: int 1
+          NeverLearnableTech: list[0]
+            list[0]
+          ForgottenProducts: list[0]
+            list[0]
+          R7u: list[0]
+            list[0]
+          p4U: list[0]
+            list[0]
+          JgJ: list[0]
+            list[0]
+          IncreaseXClassTechOddsWithCommTier: false
+          AbandonedFreighterHazardProtectionMul: float 1
+          FarmPlantsTimerMul: float 1
+          HazardProtectionDrainMultiplier: float 1
+          EnergyDrainMultiplier: float 1
+          QuestSubstanceReducer: int 5
+          Stages: list[0]
+            list[0]
+          ScanEventTable: dict{1 keys}
+            dict{1 keys}
+              Events: list[0]
+                list[0]
+          ResetSaveOnDeath: false
+          StatsToPersistOnReset: list[0]
+            list[0]
+          CompatibleWithState: true
+          HasBeenConverted: false
+          TechnologyTable: list[0]
+            list[0]
+          ProductTable: list[0]
+            list[0]
+          SubstanceTable: list[0]
+            list[0]
+          SeasonalUAStationTradeData: dict{27 keys}
+            dict{27 keys}
+              AlwaysPresentProducts: list[0]
+                list[0]
+              AlwaysPresentSubstances: list[0]
+                list[0]
+              OptionalProducts: list[0]
+                list[0]
+              OptionalSubstances: list[0]
+                list[0]
+              AlwaysConsideredBarterProducts: list[0]
+                list[0]
+              BarterAcceptanceCurve: dict{1 keys}
+                dict{1 keys}
+              BarterPriceMultiplier: float 1
+              BarterItemPreferenceFloor: float 0.5
+              rVj: dict{19 keys}
+                dict{19 keys}
+              xXU: str "^TRADE_SELL_TO"
+              MinItemsForSale: int 5
+              MaxItemsForSale: int 15
+              PercentageOfItemsAreProducts: float 0.3
+              BuyPriceIncreaseRedThreshold: float 20
+              BuyPriceDecreaseGreenThreshold: float -10
+              SellPriceIncreaseGreenThreshold: float 10
+              SellPriceDecreaseRedThreshold: float -20
+              ShowSeasonRewards: false
+              UseBarterForBuy: false
+              EFE: str "^"
+              MinAmountOfProductAvailable: list[4] of int
+                list[4] of int
+              MaxAmountOfProductAvailable: list[4] of int
+                list[4] of int
+              MinAmountOfSubstanceAvailable: list[4] of int
+                list[4] of int
+              MaxAmountOfSubstanceAvailable: list[4] of int
+                list[4] of int
+              MinExtraSystemProducts: list[4] of int
+                list[4] of int
+              MaxExtraSystemProducts: list[4] of int
+                list[4] of int
+              TradeProductsPriceImprovements: list[4] of float
+                list[4] of float
+          UseSeasonalUAStationTradeData: false
+          AlwaysUseSeasonalStationTradeData: false
+          EqZ: false
+          ;wI: float 0
+          UseSpookHazardOnly: false
+          PurpleSystemsUnlocked: false
+          FyV: false
+          8cR: dict{1 keys}
+            dict{1 keys}
+              G:p: str "Default"
+          OnlyCorvettesSpawnWhenPlayerTeleports: false
+          OnlyCorvetteLauncherCanBeRepaired: false
+          OCt: list[2] of bool|str
+            list[2] of bool|str
+          P4=: list[2] of bool|str
+            list[2] of bool|str
+          xSn: list[2] of bool|str
+            list[2] of bool|str
+          2SD: list[2] of bool|str
+            list[2] of bool|str
+          8jn: false
+          >6y: dict{1 keys}
+            dict{1 keys}
+              AlienRace: str "None"
+          d40: false
+          UyV: list[2] of bool|str
+            list[2] of bool|str
+          JLX: false
+          AllowOnlyCorvetteShipPurchases: false
+          AllowSaveContextMultitoolTransfer: true
+          AllowSaveContextShipTransfer: true
+          8A3: true
+          DoCommunityMissionTextSubstitutions: false
+          CommunityProgressTitle: str "^TRADE_SPECIAL_CM_TITLE"
+          CommunityTierLabel: str "^TRADE_SPECIAL_CM_TIER"
+          CommunityTierProgressLabel: str "^TRADE_SPECIAL_CM_TIER_PROGRESS"
+          CommunityTierCompleteLabel: str "^TRADE_SPECIAL_CM_TIER_COMPLETE"
+          j6d: false
+          6:A: false
+          5eX: list[0]
+            list[0]
+          TNK: str "^"
+          DDI: str "^"
+          qMN: dict{1 keys}
+            dict{1 keys}
+              aCb: str "Red"
+          =OM: false
+          JZi: false
+          ll<: str "^"
+          ydc: list[0]
+            list[0]
+      SeasonState: dict{12 keys}
+        dict{12 keys}
+          MilestoneValues: list[0]
+            list[0]
+          RewardCollected: list[0]
+            list[0]
+          PinnedStage: int -1
+          PinnedMilestone: int -1
+          RendezvousUAs: list[0]
+            list[0]
+          RendezvousParticipants: list[0]
+            list[0]
+          HasCollectedFinalReward: false
+          ProtectedEvents: list[0]
+            list[0]
+          StateOnDeath: dict{1 keys}
+            dict{1 keys}
+              SeasonSaveStateOnDeath: str "Standard"
+          SeasonTransferInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[0]
+                list[0]
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 0
+              Height: int 0
+              IsCool: false
+              Name: str ""
+              Version: int 0
+              NumSlotsFromTech: int 0
+          EndRewardsRedemptionState: dict{1 keys}
+            dict{1 keys}
+              SeasonEndRewardsRedemptionState: str "None"
+          GHX: list[0]
+            list[0]
+      SeasonTransferInventoryData: dict{3 keys}
+        dict{3 keys}
+          SeasonId: int -1
+          Layout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[0]
+                list[0]
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 1
+              Height: int 1
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+      EarnedSeasonSpecialRewards: list[0]
+        list[0]
+      SaveUniversalId: str "0x2B06EA6871841FF0"
+      UsedPlatforms: list[1] of str
+        list[1] of str
+      UsedDiscoveryOwnersV2: list[1] of dict
+        list[1] of dict
+          [0] dict{5 keys}
+            LID: str ""
+            UID: str "76561198039594524"
+            USN: str ""
+            PTK: str "ST"
+            TS: int 0
+  BaseContext: dict{3 keys}
+    dict{3 keys}
+      GameMode: int 1
+      PlayerStateData: dict{263 keys}
+        dict{263 keys}
+          UniverseAddress: dict{2 keys}
+            dict{2 keys}
+              RealityIndex: int 0
+              GalacticAddress: dict{5 keys}
+                dict{5 keys}
+          PreviousUniverseAddress: dict{2 keys}
+            dict{2 keys}
+              RealityIndex: int 0
+              GalacticAddress: dict{5 keys}
+                dict{5 keys}
+          HomeRealityIteration: int 0
+          SaveSummary: str "In the Airebo-Yuc XV system"
+          DifficultyState: dict{4 keys}
+            dict{4 keys}
+              Preset: dict{1 keys}
+                dict{1 keys}
+              EasiestUsedPreset: dict{1 keys}
+                dict{1 keys}
+              HardestUsedPreset: dict{1 keys}
+                dict{1 keys}
+              Settings: dict{30 keys}
+                dict{30 keys}
+          TimeStamp: int 1794258917
+          Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[25] of dict
+                list[25] of dict
+              ValidSlotIndices: list[25] of dict
+                list[25] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 12
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          Inventory_TechOnly: dict{12 keys}
+            dict{12 keys}
+              Slots: list[4] of dict
+                list[4] of dict
+              ValidSlotIndices: list[10] of dict
+                list[10] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[3] of dict
+                list[3] of dict
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          Inventory_Cargo: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[0]
+                list[0]
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 7
+              Height: int 5
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          ShipInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[0]
+                list[0]
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 0
+              Height: int 0
+              IsCool: false
+              Name: str ""
+              Version: int 0
+              NumSlotsFromTech: int 0
+          WeaponInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[11] of dict
+                list[11] of dict
+              ValidSlotIndices: list[20] of dict
+                list[20] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[3] of dict
+                list[3] of dict
+              SpecialSlots: list[3] of dict
+                list[3] of dict
+              Width: int 8
+              Height: int 3
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          WristScreenData: list[2] of dict
+            list[2] of dict
+              [0] dict{3 keys}
+          Multitools: list[6] of dict
+            list[6] of dict
+              [0] dict{11 keys}
+          ActiveMultioolIndex: int 3
+          ArchivedMultitools: list[18] of dict
+            list[18] of dict
+              [0] dict{4 keys}
+          Pets: list[30] of dict
+            list[30] of dict
+              [0] dict{35 keys}
+          Eggs: list[18] of dict
+            list[18] of dict
+              [0] dict{35 keys}
+          PetAccessoryCustomisation: list[30] of dict
+            list[30] of dict
+              [0] dict{1 keys}
+          UnlockedPetSlots: list[30] of bool
+            list[30] of bool
+          vR5: dict{1 keys}
+            dict{1 keys}
+              5T?: list[3] of dict
+                list[3] of dict
+          GraveInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[0]
+                list[0]
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 0
+              Height: int 0
+              IsCool: false
+              Name: str ""
+              Version: int 0
+              NumSlotsFromTech: int 0
+          SpawnGrave: false
+          SpaceGrave: false
+          GraveUniverseAddress: dict{2 keys}
+            dict{2 keys}
+              RealityIndex: int 0
+              GalacticAddress: dict{5 keys}
+                dict{5 keys}
+          GravePosition: list[4] of float
+            list[4] of float
+          GraveMatrixLookAt: list[4] of float
+            list[4] of float
+          GraveMatrixUp: list[4] of float
+            list[4] of float
+          ShipLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          WeaponLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          CurrentShip: dict{4 keys}
+            dict{4 keys}
+              Filename: str ""
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              ProceduralTexture: dict{1 keys}
+                dict{1 keys}
+              AltId: str ""
+          CurrentWeapon: dict{2 keys}
+            dict{2 keys}
+              Filename: str "MODELS/COMMON/WEAPONS/MULTITOOL/STAFFMULTITOO..."
+              GenerationSeed: list[2] of bool|str
+                list[2] of bool|str
+          KnownTech: list[30] of str
+            list[30] of str
+          KnownProducts: list[739] of str
+            list[739] of str
+          KnownSpecials: list[136] of str
+            list[136] of str
+          KnownRefinerRecipes: list[5] of str
+            list[5] of str
+          KnownWords: list[0]
+            list[0]
+          KnownWordGroups: list[21] of dict
+            list[21] of dict
+              [0] dict{2 keys}
+          MissionProgress: list[533] of dict
+            list[533] of dict
+              [0] dict{6 keys}
+          PostMissionIndex: int 0
+          CurrentMissionID: str "^NEXUS1"
+          CurrentMissionSeed: int 0
+          PreviousMissionID: str "^ACT1_STEP3"
+          PreviousMissionSeed: int 0
+          MissionVersion: int 41
+          MissionRecurrences: list[20] of dict
+            list[20] of dict
+              [0] dict{2 keys}
+          HoloExplorerInteraction: dict{3 keys}
+            dict{3 keys}
+              GalacticAddress: int 0
+              Value: int 5
+              Position: list[4] of float
+                list[4] of float
+          HoloScepticInteraction: dict{3 keys}
+            dict{3 keys}
+              GalacticAddress: int 0
+              Value: int 0
+              Position: list[4] of float
+                list[4] of float
+          HoloNooneInteraction: dict{3 keys}
+            dict{3 keys}
+              GalacticAddress: int 0
+              Value: int 5
+              Position: list[4] of float
+                list[4] of float
+          Health: int 60
+          ShipHealth: int 500
+          Shield: int 100
+          ShipShield: int 200
+          Energy: int 58
+          Units: int 2470400
+          Nanites: int 1324
+          Specials: int 0
+          TimeAlive: int 7400
+          MarkerStack: list[5] of dict
+            list[5] of dict
+              [0] dict{10 keys}
+          NewMPMarkerStack: list[0]
+            list[0]
+          SurveyedEventPositions: list[0]
+            list[0]
+          NextSurveyedEventPositionIndex: int 0
+          LastCheckedForStatResetsTime: int 1794258918
+          Stats: list[7] of dict
+            list[7] of dict
+              [0] dict{3 keys}
+          TelemetryStats: list[7] of dict
+            list[7] of dict
+              [0] dict{3 keys}
+          StoredInteractions: list[11] of dict
+            list[11] of dict
+              [0] dict{2 keys}
+          MaintenanceInteractions: list[0]
+            list[0]
+          PersonalMaintenanceInteractions: list[3] of dict
+            list[3] of dict
+              [0] dict{7 keys}
+          VisitedSystems: list[3] of int
+            list[3] of int
+          Hazard: list[7] of float
+            list[7] of float
+          BoltAmmo: int 58
+          ScatterAmmo: int 0
+          PulseAmmo: int 0
+          LaserAmmo: int 0
+          FirstSpawnPosition: list[4] of float
+            list[4] of float
+          SavedInteractionIndicies: list[164] of dict
+            list[164] of dict
+              [0] dict{2 keys}
+          SavedInteractionDialogTable: list[7] of dict
+            list[7] of dict
+              [0] dict{2 keys}
+          InteractionProgressTable: list[0]
+            list[0]
+          AtlasStationAdressData: list[10] of dict
+            list[10] of dict
+              [0] dict{2 keys}
+          NewAtlasStationAdressData: list[11] of dict
+            list[11] of dict
+              [0] dict{2 keys}
+          VisitedAtlasStationsData: list[0]
+            list[0]
+          FirstAtlasStationDiscovered: false
+          CompletedAtlasAddresses: list[11] of dict
+            list[11] of dict
+              [0] dict{2 keys}
+          Anq: list[10] of dict
+            list[10] of dict
+              [0] dict{2 keys}
+          f0L: int 0
+          ProgressionLevel: int 1
+          ProcTechIndex: int 3
+          IsNew: false
+          UseSmallerBlackholeJumps: false
+          Bf;: false
+          UsedEntitlements: list[0]
+            list[0]
+          PlanetPositions: list[16] of list
+            list[16] of list
+              [0] list[3] of float
+          PlanetSeeds: list[16] of list
+            list[16] of list
+              [0] list[2] of bool|str
+          PrimaryPlanet: int 1
+          TimeLastSpaceBattle: int 0
+          WarpsLastSpaceBattle: int 0
+          ActiveSpaceBattleUA: int 0
+          9JR: dict{1 keys}
+            dict{1 keys}
+              :4C: str "None"
+          TimeLastMiniStation: int 0
+          WarpsLastMiniStation: int 0
+          MiniStationUA: str "0xFFFFFFFFFFFFFFFF"
+          AnomalyPositionOverride: list[4] of float
+            list[4] of float
+          GameStartAddress1: dict{2 keys}
+            dict{2 keys}
+              RealityIndex: int 0
+              GalacticAddress: dict{5 keys}
+                dict{5 keys}
+          GameStartAddress2: dict{2 keys}
+            dict{2 keys}
+              RealityIndex: int 0
+              GalacticAddress: dict{5 keys}
+                dict{5 keys}
+          GalacticMapRequests: list[16] of bool
+            list[16] of bool
+          FirstShipPosition: list[4] of float
+            list[4] of float
+          HazardTimeAlive: int 0
+          RevealBlackHoles: false
+          CurrentFreighterHomeSystemSeed: list[2] of bool|str
+            list[2] of bool|str
+          CurrentFreighter: dict{4 keys}
+            dict{4 keys}
+              Filename: str ""
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              ProceduralTexture: dict{1 keys}
+                dict{1 keys}
+              AltId: str ""
+          FreighterLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          FreighterCargoLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          FreighterInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[16] of dict
+                list[16] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[2] of dict
+                list[2] of dict
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 7
+              Height: int 5
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          FreighterInventory_TechOnly: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[13] of dict
+                list[13] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[2] of dict
+                list[2] of dict
+              SpecialSlots: list[1] of dict
+                list[1] of dict
+              Width: int 7
+              Height: int 3
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          FreighterInventory_Cargo: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[0]
+                list[0]
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[2] of dict
+                list[2] of dict
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 7
+              Height: int 5
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          FreighterLastSpawnTime: int 0
+          FreighterUniverseAddress: dict{2 keys}
+            dict{2 keys}
+              RealityIndex: int 0
+              GalacticAddress: dict{5 keys}
+                dict{5 keys}
+          FreighterDismissed: false
+          FreighterMatrixAt: list[3] of float
+            list[3] of float
+          FreighterMatrixUp: list[3] of float
+            list[3] of float
+          FreighterMatrixPos: list[3] of float
+            list[3] of float
+          FreighterFleet: list[8] of dict
+            list[8] of dict
+              [0] dict{13 keys}
+          SquadronUnlockedPilotSlots: list[4] of bool
+            list[4] of bool
+          SquadronPilots: list[4] of dict
+            list[4] of dict
+              [0] dict{4 keys}
+          SeenBaseBuildingObjects: list[16] of str
+            list[16] of str
+          BaseBuildingObjects: list[1] of dict
+            list[1] of dict
+              [0] dict{8 keys}
+          TerrainEditData: dict{6 keys}
+            dict{6 keys}
+              GalacticAddresses: list[256] of int|str
+                list[256] of int|str
+              BufferSizes: list[256] of int
+                list[256] of int
+              BufferAges: list[256] of int
+                list[256] of int
+              BufferAnchors: list[256] of list
+                list[256] of list
+              BufferProtected: list[256] of bool
+                list[256] of bool
+              Edits: list[30000] of dict
+                list[30000] of dict
+          NPCWorkers: list[5] of dict
+            list[5] of dict
+              [0] dict{6 keys}
+          PersistentPlayerBases: list[1] of dict
+            list[1] of dict
+              [0] dict{22 keys}
+          TeleportEndpoints: list[2] of dict
+            list[2] of dict
+              [0] dict{9 keys}
+          Chest1Layout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          Chest1Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[50] of dict
+                list[50] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str "BLD_STORAGE_NAME"
+              Version: int 1
+              NumSlotsFromTech: int 0
+          Chest2Layout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          Chest2Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[50] of dict
+                list[50] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str "BLD_STORAGE_NAME"
+              Version: int 1
+              NumSlotsFromTech: int 0
+          Chest3Layout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          Chest3Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[50] of dict
+                list[50] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str "BLD_STORAGE_NAME"
+              Version: int 1
+              NumSlotsFromTech: int 0
+          Chest4Layout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          Chest4Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[50] of dict
+                list[50] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str "BLD_STORAGE_NAME"
+              Version: int 1
+              NumSlotsFromTech: int 0
+          Chest5Layout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          Chest5Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[50] of dict
+                list[50] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str "BLD_STORAGE_NAME"
+              Version: int 1
+              NumSlotsFromTech: int 0
+          Chest6Layout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          Chest6Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[50] of dict
+                list[50] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str "BLD_STORAGE_NAME"
+              Version: int 1
+              NumSlotsFromTech: int 0
+          Chest7Layout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          Chest7Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[50] of dict
+                list[50] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str "BLD_STORAGE_NAME"
+              Version: int 1
+              NumSlotsFromTech: int 0
+          Chest8Layout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          Chest8Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[50] of dict
+                list[50] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str "BLD_STORAGE_NAME"
+              Version: int 1
+              NumSlotsFromTech: int 0
+          Chest9Layout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          Chest9Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[50] of dict
+                list[50] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str "BLD_STORAGE_NAME"
+              Version: int 1
+              NumSlotsFromTech: int 0
+          Chest10Layout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          Chest10Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[50] of dict
+                list[50] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str "BLD_STORAGE_NAME"
+              Version: int 1
+              NumSlotsFromTech: int 0
+          ChestMagicLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          ChestMagicInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[48] of dict
+                list[48] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          ChestMagic2Layout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          ChestMagic2Inventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[48] of dict
+                list[48] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          CookingIngredientsLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          CookingIngredientsInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[50] of dict
+                list[50] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          RocketLockerLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          RocketLockerInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[21] of dict
+                list[21] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 7
+              Height: int 3
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          FishPlatformLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          FishPlatformInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[60] of dict
+                list[60] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 6
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          FishBaitBoxLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          FishBaitBoxInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[1] of dict
+                list[1] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 1
+              Height: int 1
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          FoodUnitLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          FoodUnitInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[1] of dict
+                list[1] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 1
+              Height: int 1
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          CorvetteStorageLayout: dict{3 keys}
+            dict{3 keys}
+              Slots: int 10
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              Level: int 1
+          CorvetteStorageInventory: dict{12 keys}
+            dict{12 keys}
+              Slots: list[0]
+                list[0]
+              ValidSlotIndices: list[160] of dict
+                list[160] of dict
+              Class: dict{1 keys}
+                dict{1 keys}
+              StackSizeGroup: dict{1 keys}
+                dict{1 keys}
+              BaseStatValues: list[0]
+                list[0]
+              SpecialSlots: list[0]
+                list[0]
+              Width: int 10
+              Height: int 16
+              IsCool: false
+              Name: str ""
+              Version: int 1
+              NumSlotsFromTech: int 0
+          CurrentFreighterNPC: dict{4 keys}
+            dict{4 keys}
+              Filename: str ""
+              Seed: list[2] of bool|str
+                list[2] of bool|str
+              ProceduralTexture: dict{1 keys}
+                dict{1 keys}
+              AltId: str ""
+          VehicleOwnership: list[7] of dict
+            list[7] of dict
+              [0] dict{10 keys}
+          PrimaryVehicle: int 0
+          SkiffData: dict{3 keys}
+            dict{3 keys}
+              Location: int 0
+              Position: list[4] of float
+                list[4] of float
+              Direction: list[4] of float
+                list[4] of float
+          ShipOwnership: list[12] of dict
+            list[12] of dict
+              [0] dict{10 keys}
+          ArchivedShipOwnership: list[18] of dict
+            list[18] of dict
+              [0] dict{6 keys}
+          PrimaryShip: int 0
+          DQh: list[0]
+            list[0]
+          MultiShipEnabled: true
+          VehicleAIControlEnabled: true
+          PlayerFreighterName: str ""
+          StartGameShipPosition: list[4] of float
+            list[4] of float
+          ShipNeedsTerrainPositioning: false
+          TradingSupplyDataIndex: int 0
+          TradingSupplyData: list[15] of dict
+            list[15] of dict
+              [0] dict{7 keys}
+          LastPortal: list[0]
+            list[0]
+          VisitedPortal: dict{3 keys}
+            dict{3 keys}
+              PortalSeed: list[2] of bool|str
+                list[2] of bool|str
+              LastPortalUA: int 0
+              IsStoryPortal: false
+          KnownPortalRunes: int 0
+          OnOtherSideOfPortal: false
+          OtherSideOfPortalReturnBase: dict{9 keys}
+            dict{9 keys}
+              UniverseAddress: dict{2 keys}
+                dict{2 keys}
+              Position: list[3] of float
+                list[3] of float
+              Facing: list[3] of float
+                list[3] of float
+              TeleporterType: str "Base"
+              Name: str ""
+              CalcWarpOffset: false
+              IsFeatured: false
+              IsFavourite: false
+              6H2: dict{1 keys}
+                dict{1 keys}
+          PortalMarkerPosition_Local: list[4] of float
+            list[4] of float
+          PortalMarkerPosition_Offset: list[4] of float
+            list[4] of float
+          StartingPrimaryWeapon: dict{1 keys}
+            dict{1 keys}
+              WeaponMode: str "Laser"
+          StartingSecondaryWeapon: dict{1 keys}
+            dict{1 keys}
+              WeaponMode: str "MineGrenade"
+          CharacterCustomisationData: list[26] of dict
+            list[26] of dict
+              [0] dict{2 keys}
+          ShipUsesLegacyColours: list[12] of bool
+            list[12] of bool
+          Outfits: list[6] of dict
+            list[6] of dict
+              [0] dict{6 keys}
+          xvv: list[6] of str
+            list[6] of str
+          MXH: list[6] of dict
+            list[6] of dict
+              [0] dict{6 keys}
+          man: list[6] of str
+            list[6] of str
+          JetpackEffect: str "^STANDARD"
+          FreighterEngineEffect: str "^DEFAULT"
+          FleetSeed: list[2] of bool|str
+            list[2] of bool|str
+          FleetFrigates: list[1] of dict
+            list[1] of dict
+              [0] dict{16 keys}
+          FleetExpeditions: list[0]
+            list[0]
+          ExpeditionSeedsSelectedToday: list[0]
+            list[0]
+          LastKnownDay: int 20766
+          SunTimer: int 0
+          FoodUnitAccumulator: float -1
+          FoodUnitItem: str "^"
+          MultiplayerLobbyID: int 0
+          MultiplayerUA: dict{2 keys}
+            dict{2 keys}
+              RealityIndex: int 0
+              GalacticAddress: dict{5 keys}
+                dict{5 keys}
+          MultiplayerSpawn: dict{15 keys}
+            dict{15 keys}
+              PlayerPositionInSystem: list[4] of float
+                list[4] of float
+              PlayerTransformAt: list[4] of float
+                list[4] of float
+              PlayerDeathRespawnPositionInSystem: list[4] of float
+                list[4] of float
+              PlayerDeathRespawnTransformAt: list[4] of float
+                list[4] of float
+              ShipPositionInSystem: list[4] of float
+                list[4] of float
+              ShipTransformAt: list[4] of float
+                list[4] of float
+              ShipTransformUp: list[4] of float
+                list[4] of float
+              ShipHovering: false
+              LastKnownPlayerState: str "InStation"
+              FreighterPositionInSystem: list[4] of float
+                list[4] of float
+              FreighterTransformAt: list[4] of float
+                list[4] of float
+              FreighterTransformUp: list[4] of float
+                list[4] of float
+              AbandonedFreighterPositionInSystem: list[4] of float
+                list[4] of float
+              AbandonedFreighterTransformAt: list[4] of float
+                list[4] of float
+              AbandonedFreighterTransformUp: list[4] of float
+                list[4] of float
+          RepairTechBuffer: list[0]
+            list[0]
+          MultiplayerPrivileges: int 691971
+          HotActions: list[3] of dict
+            list[3] of dict
+              [0] dict{1 keys}
+          LastUABeforePortalWarp: int 0
+          StoryPortalSeed: int 0
+          ShopNumber: int 117
+          ShopTier: int 1
+          HasAccessToNexus: true
+          NexusUniverseAddress: dict{2 keys}
+            dict{2 keys}
+              RealityIndex: int 0
+              GalacticAddress: dict{5 keys}
+                dict{5 keys}
+          NexusMatrixAt: list[3] of float
+            list[3] of float
+          NexusMatrixUp: list[3] of float
+            list[3] of float
+          NexusMatrixPos: list[3] of float
+            list[3] of float
+          BannerIcon: int 74
+          BannerMainColour: int 19
+          BannerBackgroundColour: int 16
+          BannerTitleId: str "^T_DEFAULT"
+          TelemetryUploadVersion: int 2
+          VRCameraOffset: float 0.00400102
+          RestartAllInactiveSeasonalMissions: false
+          RedeemedSeasonRewards: list[120] of str
+            list[120] of str
+          RedeemedTwitchRewards: list[65] of str
+            list[65] of str
+          RedeemedPlatformRewards: list[0]
+            list[0]
+          SettlementStatesV2: list[100] of dict
+            list[100] of dict
+              [0] dict{32 keys}
+          SettlementStateRingBufferIndexV2: int 27
+          SettlementHistory: list[4] of dict
+            list[4] of dict
+              [0] dict{17 keys}
+          NextLoadSpawnsWithFreshStart: false
+          SeenStories: list[9] of dict
+            list[9] of dict
+              [0] dict{1 keys}
+          BuildersKnown: false
+          StartingSeasonNumber: int 0
+          WonderPlanetRecords: list[11] of dict
+            list[11] of dict
+              [0] dict{3 keys}
+          WonderCreatureRecords: list[15] of dict
+            list[15] of dict
+              [0] dict{3 keys}
+          WonderFloraRecords: list[8] of dict
+            list[8] of dict
+              [0] dict{3 keys}
+          WonderMineralRecords: list[8] of dict
+            list[8] of dict
+              [0] dict{3 keys}
+          WonderTreasureRecords: list[13] of dict
+            list[13] of dict
+              [0] dict{3 keys}
+          WonderWeirdBasePartRecords: list[11] of dict
+            list[11] of dict
+              [0] dict{3 keys}
+          WonderCustomRecords: list[12] of dict
+            list[12] of dict
+              [0] dict{3 keys}
+          WonderCustomRecordsExtraData: list[12] of dict
+            list[12] of dict
+              [0] dict{2 keys}
+          SyncBuffersData: list[4] of dict
+            list[4] of dict
+              [0] dict{1 keys}
+          RefinerBufferKeys: list[25] of dict
+            list[25] of dict
+              [0] dict{2 keys}
+          RefinerBufferData: list[25] of dict
+            list[25] of dict
+              [0] dict{7 keys}
+          GalaxyWaypoints: list[0]
+            list[0]
+          FishingRecord: dict{3 keys}
+            dict{3 keys}
+              ProductList: list[256] of str
+                list[256] of str
+              ProductCountList: list[256] of int
+                list[256] of int
+              LargestCatchList: list[256] of float
+                list[256] of float
+          HasDiscoveredPurpleSystems: false
+          FirstPurpleSystemUA: int 0
+          HasGalacticMapRequestAllPurples: false
+          HasGalacticMapRequestFirstPurple: false
+          TaggedPlanetUA: str "0xFFFFFFFFFFFFFFFF"
+          YaV: list[5] of dict
+            list[5] of dict
+              [0] dict{2 keys}
+          SettlementLocalSaveData: list[0]
+            list[0]
+          CorvetteEditAssociatedShipIndex: int -1
+          CorvetteEditShipName: str ""
+          CorvetteDraftShipSeed: int 0
+          tRY: int 0
+          ekO: list[256] of dict
+            list[256] of dict
+              [0] dict{3 keys}
+          A0K: int 0
+      SpawnStateData: dict{15 keys}
+        dict{15 keys}
+          PlayerPositionInSystem: list[4] of float
+            list[4] of float
+          PlayerTransformAt: list[4] of float
+            list[4] of float
+          PlayerDeathRespawnPositionInSystem: list[4] of float
+            list[4] of float
+          PlayerDeathRespawnTransformAt: list[4] of float
+            list[4] of float
+          ShipPositionInSystem: list[4] of float
+            list[4] of float
+          ShipTransformAt: list[4] of float
+            list[4] of float
+          ShipTransformUp: list[4] of float
+            list[4] of float
+          ShipHovering: true
+          LastKnownPlayerState: str "InShip"
+          FreighterPositionInSystem: list[4] of float
+            list[4] of float
+          FreighterTransformAt: list[4] of float
+            list[4] of float
+          FreighterTransformUp: list[4] of float
+            list[4] of float
+          AbandonedFreighterPositionInSystem: list[4] of float
+            list[4] of float
+          AbandonedFreighterTransformAt: list[4] of float
+            list[4] of float
+          AbandonedFreighterTransformUp: list[4] of float
+            list[4] of float
+  DiscoveryManagerData: dict{1 keys}
+    dict{1 keys}
+      DiscoveryData-v1: dict{5 keys}
+        dict{5 keys}
+          ReserveStore: int 41
+          ReserveManaged: int 3250
+          Store: dict{1 keys}
+            dict{1 keys}
+              Record: list[41] of dict
+                list[41] of dict
+          Available: list[14] of dict
+            list[14] of dict
+              [0] dict{2 keys}
+          Enqueued: list[0]
+            list[0]

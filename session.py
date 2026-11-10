@@ -93,3 +93,27 @@ class SaveSession:
         tmp.replace(self.slot_path)
         self.dirty = False
         return f"Saved. Backup: {bk}"
+
+    # ------------------------------------------------------ write access
+    def _player_dict(self):
+        """The PlayerStateData dict, whichever root shape the save uses."""
+        for root in PLAYER_ROOTS:
+            node = self.view[0] if self.view else None
+            for part in root:
+                if isinstance(node, dict) and part in node:
+                    node = node[part]
+                else:
+                    node = None
+                    break
+            if isinstance(node, dict):
+                return node
+        return None
+
+    def set_player(self, leaf, value):
+        """Set a named player-state field (annotated key). True on success."""
+        d = self._player_dict()
+        if d is None or leaf not in d:
+            return False
+        d[leaf] = value
+        self.dirty = True
+        return True
