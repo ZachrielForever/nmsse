@@ -1,0 +1,21 @@
+{
+  "rVj": "BarterUIStrings",
+  "?<t": "BarterAcceptHeaderText",
+  "jQX": "BarterNpcOfferText",
+  "wBA": "BarterPlayerOfferText",
+  "2q5": "BarterAcceptBadText",
+  "3Vm": "BarterOfferDeclinedOsd",
+  "PGS": "BarterAcceptEmptyText",
+  "c6K": "BarterAcceptPoorText",
+  "lI?": "BarterAcceptFairText",
+  "j?y": "BarterAcceptGoodText",
+  "l;a": "BarterAcceptGreatText",
+  "JWt": "BarterOfferAcceptOsd",
+  "LTP": "BarterPopupButtonSubText",
+  "Y4s": "BarterPopupButtonText",
+  "R0p": "BarterButtonText",
+  "xXU": "TradeSellToText",
+  "grs": "TransferReceiveDescText",
+  "Cqg": "SeasonalFinalMilestoneText",
+  "aCb": "Colour"
+}

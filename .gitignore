@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+specimens/
+*.hg
+*.bak-*
+*.tmp
+58231.0
+data/keys_all.json
