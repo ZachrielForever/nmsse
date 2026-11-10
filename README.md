@@ -41,17 +41,3 @@ The in-app stub tabs mirror this roadmap.
 
 Requires Python 3.10+ and PySide6 (`pip install PySide6`).
 
-```bash
-python main.py
-
-Select a profile and slot from the toolbar — the editor locates them for you. Edits happen in the Raw JSON tree (Phase 1 tabs incoming); Save writes the slot after passing the roundtrip check.
-Warning
-
-No Man's Sky has no manual-save workflow and no official modding support for save editing. Always keep backups (the editor does this automatically, but a cloud/local copy of the save folder is cheap insurance), and never edit a save while the game is running.
-Format discovery
-
-The current save container was reverse-engineered from raw hexdumps of live saves: header structure confirmed by delta analysis of paired specimens, the compression identified as LZ4 block format, and the codec implemented and verified against game-written files before the community documentation was located — which then confirmed the findings. The research scripts used along the way (mine*.py, chunks.py, probe.py, decode_v2/v3.py) ship in the repository root as a record of the process.
-Credits
-
-    Key maps: the community-maintained token dictionaries from pljeroen/nmstoolkit (data/jsonmap.txt, data/jsonmapac.txt), converted by mapping.py, plus original supplemental mappings (data/keys_extra.json).
-    Format references: the NMS save-format documentation assembled by the aforementioned community tooling.
